@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['normal apple', 'rotten apple']
+
+roboflow:
+  workspace: capstone-82twa
+  project: rotten-apple-detection-2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capstone-82twa/rotten-apple-detection-2/dataset/3
